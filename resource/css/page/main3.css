@@ -1,0 +1,383 @@
+::-webkit-scrollbar {
+  display: none;
+}
+
+body {
+  background: #161c29;
+}
+
+body.active {
+  overflow: hidden;
+}
+
+.content .scrollWrapper .home-section {
+  height: 100vh;
+  overflow: hidden;
+  position: relative;
+}
+.content .scrollWrapper .home-section .home-section-bg {
+  width: 100%;
+}
+.content .scrollWrapper .home-section .project-desc {
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.content .scrollWrapper .section1 {
+  background: #161c29;
+}
+.content .scrollWrapper .section1 .imgbox {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+.content .scrollWrapper .section1 .imgbox img {
+  position: absolute;
+}
+.content .scrollWrapper .section1 .imgbox .img1 {
+  top: 30%;
+  left: 0;
+  width: 40%;
+}
+.content .scrollWrapper .section1 .imgbox .img2 {
+  width: 50%;
+  top: -60%;
+  right: -30%;
+}
+.content .scrollWrapper .section1 .imgbox .move {
+  left: 35%;
+  top: 25%;
+  z-index: 1;
+}
+.content .scrollWrapper .section1 .project-desc {
+  left: 70%;
+}
+.content .scrollWrapper .section1 .project-desc .project-title p {
+  font-size: 13vw;
+  color: #fff;
+  font-weight: 300;
+  line-height: 1;
+}
+.content .scrollWrapper .section1 .project-desc .project-title p em {
+  color: #17f5a4;
+  font-weight: 900;
+  filter: drop-shadow(0px 0px 26px rgba(23, 245, 164, 0.19));
+}
+.content .scrollWrapper .section2 {
+  background: #161c29;
+}
+.content .scrollWrapper .section2 .imgbox {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+.content .scrollWrapper .section2 .imgbox img {
+  position: absolute;
+}
+.content .scrollWrapper .section2 .imgbox .move {
+  left: 38.5%;
+  top: 31%;
+  width: 20%;
+  z-index: 1;
+}
+.content .scrollWrapper .section2 .section2-profile {
+  position: absolute;
+  top: 0%;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.content .scrollWrapper .section2 .section2-profile .profile-img {
+  width: 50%;
+  height: 100%;
+  position: relative;
+}
+.content .scrollWrapper .section2 .section2-profile .profile-img img {
+  width: 50%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+}
+.content .scrollWrapper .section2 .section2-profile .profile-img em {
+  width: 53%;
+  height: 50%;
+  border-radius: 50%;
+  background: linear-gradient(160deg, #ffffff, rgba(255, 255, 255, 0) 80%);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: -1;
+}
+.content .scrollWrapper .section2 .section2-profile .profile-name {
+  width: 50%;
+}
+.content .scrollWrapper .section2 .section2-profile .profile-name p {
+  font-size: 9vw;
+  font-weight: 900;
+  color: rgba(255, 255, 255, 0.3882352941);
+  line-height: 0.9;
+  text-align: center;
+}
+.content .scrollWrapper .section2 .section2-profile .profile-name .n1 {
+  filter: blur(3.8894px);
+}
+.content .scrollWrapper .section2 .section2-profile .profile-name .n2 {
+  filter: blur(1.0372px);
+}
+.content .scrollWrapper .section2 .section2-profile .profile-name .n3 {
+  font-size: 13vw;
+  background: linear-gradient(360deg, rgba(255, 255, 255, 0) 10%, #fff 80%);
+  color: transparent;
+  -webkit-background-clip: text;
+}
+.content .scrollWrapper .section2 .section2-profile .profile-name .n4 {
+  color: #17f5a4;
+  font-size: 3vw;
+  font-weight: 900;
+  line-height: 1.2;
+}
+.content .scrollWrapper .section2 .section2-profile .profile-name .n5 {
+  background: #fff;
+  color: transparent;
+  -webkit-background-clip: text;
+}
+.content .scrollWrapper .section2 .section2-profile .profile-name .n6 {
+  filter: blur(1.0372px);
+}
+.content .scrollWrapper .section3 {
+  background: #161c29;
+}
+.content .scrollWrapper .section3 .horizontalWrap .sectionText {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.content .scrollWrapper .section3 .horizontalWrap .sectionText span {
+  font-size: 9vw;
+  font-weight: 900;
+  background: linear-gradient(360deg, rgba(255, 255, 255, 0) 10%, #fff 80%);
+  color: transparent;
+  -webkit-background-clip: text;
+}
+.content .scrollWrapper .section3 .horizontalWrap .imgbox {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+.content .scrollWrapper .section3 .horizontalWrap .imgbox img {
+  position: absolute;
+}
+.content .scrollWrapper .section3 .horizontalWrap .imgbox .move {
+  left: 150%;
+  width: 10%;
+}
+.content .scrollWrapper .section4 {
+  display: flex;
+  flex-wrap: nowrap;
+}
+.content .scrollWrapper .section4 .ref-box .ref-inner {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+}
+.content .scrollWrapper .section4 .ref-box .ref-inner .imgbox {
+  width: 800px;
+  margin-left: 200px;
+  box-sizing: border-box;
+  box-shadow: 0 50px 70px -30px rgba(255, 255, 255, 0.5);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+}
+.content .scrollWrapper .section4 .ref-box .ref-inner .imgbox img {
+  width: 100%;
+}
+.content .scrollWrapper .section4 .ref-box .ref-inner .textbox {
+  width: 600px;
+  padding: 20px;
+  box-sizing: border-box;
+  margin-left: 50px;
+}
+.content .scrollWrapper .section4 .ref-box .ref-inner .textbox .environment {
+  font-size: 20px;
+  text-shadow: 0 0 10px rgba(255, 255, 255, 0.5), 0 0 20px rgba(255, 255, 255, 0.5), 0 0 30px rgba(255, 255, 255, 0.5), 0 0 40px rgba(255, 255, 255, 0.5);
+}
+.content .scrollWrapper .section4 .ref-box .ref-inner .textbox .title {
+  font-size: 36px;
+  font-weight: 900;
+  line-height: 1.2;
+  margin: 20px 0;
+  text-shadow: none;
+}
+.content .scrollWrapper .section4 .ref-box .ref-inner .textbox .reflist h4 {
+  margin: 20px 0 10px;
+  font-size: 20px;
+  font-weight: 600;
+}
+.content .scrollWrapper .section4 .ref-box .ref-inner .textbox .refcontent {
+  margin-top: 20px;
+  line-height: 1.5;
+}
+.content .scrollWrapper .section4 .ref-box .ref-inner .textbox .btn-hov {
+  margin-top: 20px;
+}
+.content .scrollWrapper .section4 .ref-box .ref-inner .textbox p, .content .scrollWrapper .section4 .ref-box .ref-inner .textbox h4 {
+  color: #fff;
+}
+.content .scrollWrapper .section4 .ref-box .ref-inner .textbox.green {
+  border-left: 10px solid #17f5a4;
+}
+.content .scrollWrapper .section4 .ref-box .ref-inner .textbox.green .title {
+  color: #17f5a4;
+}
+.content .scrollWrapper .section4 .ref-box .ref-inner .textbox.yellow {
+  border-left: 10px solid #ffbf0f;
+}
+.content .scrollWrapper .section4 .ref-box .ref-inner .textbox.yellow .title {
+  color: #ffbf0f;
+}
+.content .scrollWrapper .section5 {
+  background: #161c29;
+}
+.content .scrollWrapper .section5 .horizontalWrap .sectionText {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.content .scrollWrapper .section5 .horizontalWrap .sectionText span {
+  font-size: 9vw;
+  font-weight: 900;
+  background: linear-gradient(360deg, rgba(255, 255, 255, 0) 10%, #fff 80%);
+  color: transparent;
+  -webkit-background-clip: text;
+}
+.content .scrollWrapper .section5 .horizontalWrap .imgbox {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+.content .scrollWrapper .section5 .horizontalWrap .imgbox img {
+  position: absolute;
+}
+.content .scrollWrapper .section5 .horizontalWrap .imgbox .move {
+  left: 150%;
+  top: 30%;
+  width: 10%;
+}
+.content .scrollWrapper .parallax .flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 120px;
+  box-sizing: border-box;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  z-index: 1;
+}
+.content .scrollWrapper .parallax .flex .textbox {
+  width: 50%;
+  color: #fff;
+}
+.content .scrollWrapper .parallax .flex .textbox .title {
+  font-size: 6vw;
+  margin-bottom: 50px;
+}
+.content .scrollWrapper .parallax .flex .textbox .sub {
+  font-size: 2vw;
+  line-height: 1.5;
+}
+.content .scrollWrapper .parallax .flex .imgbox {
+  width: 50%;
+}
+.content .scrollWrapper .parallax .flex .imgbox.left {
+  -webkit-clip-path: polygon(0 0, 62% 0, 100% 100%, 41% 100%);
+  clip-path: polygon(0 0, 62% 0, 100% 100%, 41% 100%);
+}
+.content .scrollWrapper .parallax .flex .imgbox.right {
+  -webkit-clip-path: polygon(41% 0, 100% 0, 62% 100%, 0 100%);
+  clip-path: polygon(41% 0, 100% 0, 62% 100%, 0 100%);
+}
+.content .scrollWrapper .parallax .section6 {
+  background: url("../../img/page/main/parallax_bg1.jpg");
+  background-size: 100%;
+}
+.content .scrollWrapper .parallax .section6 .star {
+  top: -60%;
+  right: 20%;
+}
+.content .scrollWrapper .parallax .section7 {
+  background: url("../../img/page/main/parallax_bg2.jpg");
+  background-size: 100%;
+}
+.content .scrollWrapper .parallax .section7 .star {
+  top: -60%;
+  right: -30%;
+}
+.content .scrollWrapper .parallax .section8 {
+  background: url("../../img/page/main/parallax_bg3.jpg");
+  background-size: 100%;
+}
+.content .scrollWrapper .parallax .section8 .star {
+  top: -60%;
+  right: -5%;
+}
+.content .scrollWrapper .parallax .star {
+  position: absolute;
+  z-index: 2;
+}
+.content .scrollWrapper .parallax .color_bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.content .scrollWrapper .section9 .room {
+  width: 100%;
+  height: 100vh;
+  background: url("../../img/page/main/room2.jpg");
+  background-size: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.content .scrollWrapper .section9 .room .txtbox {
+  width: 704px;
+  height: 393px;
+  margin-top: -12px;
+  margin-left: -12px;
+  position: relative;
+  overflow: hidden;
+}
+.content .scrollWrapper .section9 .room .txtbox .title {
+  text-align: center;
+  font-size: 5vw;
+  font-weight: 900;
+  color: #161c29;
+  margin: 3vw auto;
+}
+.content .scrollWrapper .section9 .room .txtbox .text_wrapper {
+  padding: 0 50px;
+}
+.content .scrollWrapper .section9 .room .txtbox .text_wrapper #text {
+  line-height: 1.5;
+  font-size: 24px;
+}
+.content .scrollWrapper .section9 .room .txtbox img {
+  position: absolute;
+  width: 10%;
+  top: 175px;
+  left: -10%;
+}/*# sourceMappingURL=main3.css.map */
