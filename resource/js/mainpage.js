@@ -318,7 +318,7 @@ String.prototype.toKorChars = function() {
 }
   
 // 타이핑할 문장
-var result  = "도전을 즐기며 코드에 강렬한 희망을 심겠습니다.<br>ka604@naver.com<br>010-4664-4965";
+var result  = "도전을 즐기며 코드에 강렬한 희망을 심겠습니다.<br>ooo@naver.com<br>010-0000-0000";
 var typeing1=[];
 result = result.split(''); // 한글자씩자름
 
