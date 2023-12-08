@@ -267,7 +267,9 @@ btn style
 }
 
 
-// keyframes
+/*====================================*/
+/* keyframes */
+/*====================================*/
 @keyframes waviy {
     0% {transform: translateY(100px);opacity: 0;}
     20% {transform: translateY(0px);}
@@ -278,4 +280,15 @@ btn style
 @keyframes rotate {
     from {transform: rotate(0deg);}
     to {transform: rotate(360deg);}
+}
+
+
+/*====================================*/
+/* media */
+/*====================================*/
+@media (max-width: 1024px) {
+    .btn-hov {
+        padding: 10px 15px;
+        font-size: 3vw;
+    }
 }

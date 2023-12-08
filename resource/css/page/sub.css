@@ -84,7 +84,7 @@ body.active {
   position: relative;
   overflow: hidden;
 }
-.sub-content .subsection .section-inner .pc {
+.sub-content .subsection .section-inner .pc-img {
   display: block;
   width: 45%;
   width: 770px;
@@ -612,4 +612,121 @@ body.active {
   height: 100%;
   background-color: rgba(0, 0, 0, 0.5);
   z-index: 1091;
+}
+
+/*====================================*/
+/* media */
+/*====================================*/
+/* SUBPAGE STYLE */
+@media (max-width: 1024px) {
+  .sub-content .horiz-text span {
+    font-size: 12vw;
+  }
+  .sub-content .subsection .section-inner .pc-img {
+    width: 100%;
+    padding: 0 5%;
+    box-sizing: border-box;
+  }
+  .sub-content .subsection .section-inner .section-table {
+    position: relative;
+    width: 90%;
+    height: 100%;
+    padding: 0;
+    box-sizing: border-box;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    padding-top: 100px;
+  }
+  .sub-content .subsection .section-inner .section-table .table-tr {
+    padding: 2vw;
+    background: #111;
+  }
+  .sub-content .subsection .section-inner .section-table .table-tr .table-th {
+    color: #fff;
+    font-size: 3vw;
+  }
+  .sub-content .subsection .section-inner .section-table .table-tr .table-td {
+    color: #fff;
+    font-size: 3vw;
+  }
+  .sub-content .subsection .section-inner .section-table .table-tr .table-td .tbinput input {
+    font-size: 3vw;
+    color: #fff;
+  }
+  .sub-content .subsection .section-inner .section-table .table-tr .table-td .tbinput label span {
+    font-size: 3vw;
+  }
+  .sub-content .subsection .section-inner .section-table .table-tr .table-td .tbinput textarea {
+    background: #111;
+    color: #fff;
+    font-size: 3vw;
+  }
+  .sub-content .subsection .section-inner .section-table .table-tr + .table-tr {
+    margin-top: 0;
+    padding-top: 20px;
+  }
+  .sub-content .subsection .section-inner .section-table .btnwrap {
+    margin-top: 0;
+    padding-top: 10px;
+    background: #111;
+  }
+  .sub-content .subsection .section-inner .section-table .btnwrap .btn-hov {
+    width: auto;
+    margin: 10px;
+    border: 1px solid #17f5a4;
+  }
+  .sub-content .subsection .section-inner .section-table .mail .copy {
+    color: #fff;
+    border: 1px solid #fff;
+    font-size: 3vw;
+    padding: 8px 15px;
+  }
+  .sub-content .subsection .section-inner .section-table:after {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 100%;
+    background: url("../../img/page/sub/pc2_under.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+  }
+  .sub-content .subsection .section-inner.contect {
+    height: 100vh;
+  }
+  .sub-content .subsection .section-inner.contect .pc-img {
+    display: none;
+  }
+  .modal {
+    width: 90%;
+  }
+  /* REFERENCE */
+  /* ABOUT */
+  .about-content {
+    flex-direction: column-reverse;
+    position: relative;
+  }
+  .about-content .imgbox {
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+  }
+  .about-content .textbox {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5vw;
+  }
+  .about-content .textbox ul {
+    padding: 10vw 0;
+  }
+  .about-content .textbox ul li h4 {
+    font-size: 8vw;
+  }
+  .about-content .textbox ul li p {
+    font-size: 8vw;
+  }
+  .about-content .textbox ul li .desc {
+    font-size: 8vw;
+  }
 }/*# sourceMappingURL=sub.css.map */

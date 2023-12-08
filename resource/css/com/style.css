@@ -692,6 +692,9 @@ btn style
   background: linear-gradient(360deg, transparent, #ffbf0f);
 }
 
+/*====================================*/
+/* keyframes */
+/*====================================*/
 @keyframes waviy {
   0% {
     transform: translateY(100px);
@@ -714,5 +717,14 @@ btn style
   }
   to {
     transform: rotate(360deg);
+  }
+}
+/*====================================*/
+/* media */
+/*====================================*/
+@media (max-width: 1024px) {
+  .btn-hov {
+    padding: 10px 15px;
+    font-size: 3vw;
   }
 }/*# sourceMappingURL=style.css.map */

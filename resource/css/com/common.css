@@ -247,5 +247,39 @@ body.on {
 }
 
 /*====================================*/
-/* common */
-/*====================================*//*# sourceMappingURL=common.css.map */
+/* media */
+/*====================================*/
+@media (max-width: 1300px) {
+  #header .header-inner {
+    width: 100%;
+    padding: 0 20px;
+    box-sizing: border-box;
+  }
+  #header .header-inner .full-menu {
+    margin-left: 0;
+  }
+  .nav {
+    background-size: auto 100%;
+  }
+  .nav .nav-inner {
+    width: 100%;
+    padding: 0 20px;
+    box-sizing: border-box;
+  }
+  .nav .nav-inner .nav-back {
+    right: 20px;
+  }
+}
+@media (max-width: 1024px) {
+  .nav .nav-inner ul li a {
+    font-size: 8vw;
+  }
+  .nav .nav-inner .nav-back {
+    font-size: 5vw;
+  }
+}
+@media (max-width: 720px) {
+  .nav .nav-inner ul li a {
+    font-size: 12vw;
+  }
+}/*# sourceMappingURL=common.css.map */
