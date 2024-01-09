@@ -11,7 +11,9 @@ const section1MoveTimeline = gsap.timeline({
 });
 section1MoveTimeline.from(section1Move, {
     duration: 10,
-    x: "-500px",
+    // x: "-500px",
+    // y: "-350px",
+    x: "-150%",
     y: "-350px",
     rotation: 360,
     scale: 0,
@@ -265,7 +267,7 @@ gsap.to(section9Text, {
 const section9Move = document.querySelector("#section9 .txtbox .move");
 gsap.to(section9Move,{
     duration: 2,
-    x: 600,
+    x: '800%',
     rotation: 360,
     autoAlpha: 1,
 

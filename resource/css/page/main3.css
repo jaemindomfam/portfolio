@@ -47,8 +47,9 @@ body.active {
   right: -30%;
 }
 .content .scrollWrapper .section1 .imgbox .move {
-  left: 35%;
-  top: 25%;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
   z-index: 1;
 }
 .content .scrollWrapper .section1 .project-desc {
@@ -311,7 +312,8 @@ body.active {
 }
 .content .scrollWrapper .parallax .section6 {
   background: url("../../img/page/main/parallax_bg1.jpg");
-  background-size: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 .content .scrollWrapper .parallax .section6 .star {
   top: -60%;
@@ -319,7 +321,8 @@ body.active {
 }
 .content .scrollWrapper .parallax .section7 {
   background: url("../../img/page/main/parallax_bg2.jpg");
-  background-size: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 .content .scrollWrapper .parallax .section7 .star {
   top: -60%;
@@ -327,7 +330,8 @@ body.active {
 }
 .content .scrollWrapper .parallax .section8 {
   background: url("../../img/page/main/parallax_bg3.jpg");
-  background-size: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 .content .scrollWrapper .parallax .section8 .star {
   top: -60%;
@@ -347,17 +351,16 @@ body.active {
 .content .scrollWrapper .section9 .room {
   width: 100%;
   height: 100vh;
-  background: url("../../img/page/main/room2.jpg");
-  background-size: 100%;
+  background: #fff;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 .content .scrollWrapper .section9 .room .txtbox {
-  width: 704px;
-  height: 393px;
-  margin-top: -12px;
-  margin-left: -12px;
+  width: 60%;
+  height: 50%;
+  border: 20px solid #111;
+  background: #fff;
   position: relative;
   overflow: hidden;
 }
@@ -372,12 +375,161 @@ body.active {
   padding: 0 50px;
 }
 .content .scrollWrapper .section9 .room .txtbox .text_wrapper #text {
-  line-height: 1.5;
+  line-height: 2;
   font-size: 24px;
 }
 .content .scrollWrapper .section9 .room .txtbox img {
   position: absolute;
   width: 10%;
-  top: 175px;
-  left: -10%;
+  top: 50%;
+  left: 0;
+}
+
+@media (max-width: 1200px) {
+  .content .scrollWrapper .section1 .imgbox .img1 {
+    top: 60%;
+  }
+  .content .scrollWrapper .section1 .imgbox .img2 {
+    transform: translateY(-50%);
+    width: 50%;
+    top: 0%;
+  }
+  .content .scrollWrapper .section1 .imgbox .img3 {
+    width: 40%;
+  }
+  .content .scrollWrapper .section1 .imgbox .move {
+    top: 50%;
+    left: 50%;
+  }
+  .content .scrollWrapper .section1 .project-desc {
+    left: 50%;
+  }
+  .content .scrollWrapper .section2 .imgbox .move {
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+  }
+  .content .scrollWrapper .section2 .section2-profile .profile-img em {
+    width: 40vw;
+    height: 40vw;
+  }
+  .content .scrollWrapper .section2 .section2-profile .profile-img img {
+    width: 80%;
+  }
+  .content .scrollWrapper .section2 .section2-profile .profile-name {
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .content .scrollWrapper .section2 .section2-profile .profile-name p {
+    font-size: 13vw;
+    width: 100%;
+  }
+  .content .scrollWrapper .section2 .section2-profile .profile-name .n3 {
+    font-size: 19vw;
+  }
+  .content .scrollWrapper .section2 .section2-profile .profile-name .n4 {
+    font-size: 5vw;
+  }
+  .content .scrollWrapper .section4 .ref-box .ref-inner {
+    flex-direction: column;
+    margin-top: 0;
+    justify-content: center;
+  }
+  .content .scrollWrapper .section4 .ref-box .ref-inner .imgbox {
+    width: 60vw;
+    margin-left: 20vw;
+  }
+  .content .scrollWrapper .section4 .ref-box .ref-inner .textbox {
+    width: 60vw;
+    text-align: center;
+    margin-left: 20vw;
+  }
+  .content .scrollWrapper .section4 .ref-box .ref-inner .textbox .title br {
+    display: none;
+  }
+  .content .scrollWrapper .section4 .ref-box .ref-inner .textbox .reflist {
+    display: none;
+  }
+  .content .scrollWrapper .parallax .section6 .star {
+    width: 50vw;
+  }
+  .content .scrollWrapper .parallax .flex {
+    padding: 0 5vw;
+  }
+  .content .scrollWrapper .parallax .flex .imgbox {
+    width: 50%;
+  }
+  .content .scrollWrapper .parallax .flex .imgbox img {
+    height: 100%;
+  }
+  .content .scrollWrapper .section9 .room .txtbox {
+    width: 80%;
+    height: 30%;
+    padding-bottom: 3vw;
+  }
+  .content .scrollWrapper .section9 .room .txtbox img {
+    top: 70%;
+  }
+}
+@media (max-width: 720px) {
+  .content .scrollWrapper .section1 .imgbox .img1 {
+    top: inherit;
+    bottom: -10%;
+    left: -10%;
+    width: 80%;
+  }
+  .content .scrollWrapper .section1 .imgbox .img2 {
+    width: 80%;
+    top: 0%;
+  }
+  .content .scrollWrapper .section1 .imgbox .img3 {
+    width: 60%;
+    top: 5%;
+  }
+  .content .scrollWrapper .section1 .imgbox .move {
+    top: 50%;
+    left: 50%;
+  }
+  .content .scrollWrapper .section1 .project-desc .project-title p {
+    font-size: 20vw;
+    font-weight: bold;
+  }
+  .content .scrollWrapper .section4 .ref-box .ref-inner .imgbox {
+    width: 80vw;
+    margin-left: 20vw;
+  }
+  .content .scrollWrapper .section4 .ref-box .ref-inner .textbox {
+    width: 80vw;
+    text-align: center;
+    margin-left: 20vw;
+  }
+  .content .scrollWrapper .section4 .ref-box .ref-inner .textbox .environment {
+    font-size: 3.5vw;
+  }
+  .content .scrollWrapper .section4 .ref-box .ref-inner .textbox .title {
+    font-size: 5vw;
+  }
+  .content .scrollWrapper .section4 .ref-box .ref-inner .textbox .title br {
+    display: block;
+  }
+  .content .scrollWrapper .section4 .ref-box .ref-inner .textbox.green {
+    border-left: 5px solid #17f5a4;
+  }
+  .content .scrollWrapper .parallax .flex .textbox .title {
+    font-size: 8vw;
+    margin-bottom: 5vw;
+  }
+  .content .scrollWrapper .parallax .flex .textbox .sub {
+    font-size: 4vw;
+  }
+  .content .scrollWrapper .parallax .flex .imgbox .polygon {
+    margin-left: -140%;
+  }
+  .content .scrollWrapper .section9 .room .txtbox .title {
+    font-size: 8vw;
+  }
+  .content .scrollWrapper .section9 .room .txtbox .text_wrapper {
+    padding: 0 2vw;
+  }
 }/*# sourceMappingURL=main3.css.map */

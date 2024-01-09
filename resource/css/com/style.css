@@ -722,6 +722,13 @@ btn style
 /*====================================*/
 /* media */
 /*====================================*/
+@media (max-width: 1200px) {
+  .btn-hov {
+    color: #161c29 !important;
+    background: #17f5a4;
+    box-shadow: 0 0 10px #17f5a4, 0 0 40px #17f5a4, 0 0 80px #17f5a4;
+  }
+}
 @media (max-width: 1024px) {
   .btn-hov {
     padding: 10px 15px;
