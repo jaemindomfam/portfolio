@@ -137,6 +137,7 @@ body.active {
   font-size: 13vw;
   background: linear-gradient(360deg, rgba(255, 255, 255, 0) 10%, #fff 80%);
   color: transparent;
+  background-clip: text;
   -webkit-background-clip: text;
 }
 .content .scrollWrapper .section2 .section2-profile .profile-name .n4 {
@@ -148,6 +149,7 @@ body.active {
 .content .scrollWrapper .section2 .section2-profile .profile-name .n5 {
   background: #fff;
   color: transparent;
+  background-clip: text;
   -webkit-background-clip: text;
 }
 .content .scrollWrapper .section2 .section2-profile .profile-name .n6 {
@@ -168,6 +170,7 @@ body.active {
   font-weight: 900;
   background: linear-gradient(360deg, rgba(255, 255, 255, 0) 10%, #fff 80%);
   color: transparent;
+  background-clip: text;
   -webkit-background-clip: text;
 }
 .content .scrollWrapper .section3 .horizontalWrap .imgbox {
@@ -193,11 +196,16 @@ body.active {
 }
 .content .scrollWrapper .section4 .ref-box .ref-inner .imgbox {
   width: 800px;
+  height: 450px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
   margin-left: 200px;
   box-sizing: border-box;
   box-shadow: 0 50px 70px -30px rgba(255, 255, 255, 0.5);
   backdrop-filter: blur(5px);
   -webkit-backdrop-filter: blur(5px);
+  overflow: hidden;
 }
 .content .scrollWrapper .section4 .ref-box .ref-inner .imgbox img {
   width: 100%;
@@ -231,7 +239,8 @@ body.active {
 .content .scrollWrapper .section4 .ref-box .ref-inner .textbox .btn-hov {
   margin-top: 20px;
 }
-.content .scrollWrapper .section4 .ref-box .ref-inner .textbox p, .content .scrollWrapper .section4 .ref-box .ref-inner .textbox h4 {
+.content .scrollWrapper .section4 .ref-box .ref-inner .textbox p,
+.content .scrollWrapper .section4 .ref-box .ref-inner .textbox h4 {
   color: #fff;
 }
 .content .scrollWrapper .section4 .ref-box .ref-inner .textbox.green {
@@ -261,6 +270,7 @@ body.active {
   font-weight: 900;
   background: linear-gradient(360deg, rgba(255, 255, 255, 0) 10%, #fff 80%);
   color: transparent;
+  background-clip: text;
   -webkit-background-clip: text;
 }
 .content .scrollWrapper .section5 .horizontalWrap .imgbox {
